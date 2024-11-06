@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.container-main{
+    display: flex;
+}
+.box1{
+    width: 15%;
+    height: 100vh;
+    border-right: 1px solid rgb(49, 47, 47);
+    background-color: whitesmoke;
+}
+.generatediv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.box2{
+    width: 85%;
+    height: 100vh;
+}
+.top-pos{
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 99%;
+    margin-left: 4px;
+    border-bottom: 1px solid rgb(49, 47, 47);
+}
+.card-item{
+    display: flex;
+    justify-content: space-between;
+}
+.black-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6769;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popbox{
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+}
+.popbox div{
+    margin-bottom: 10px;
+}
+.popbox div button{
+    padding: 10px;
+}
+.card-item button{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    background-color:rgb(253, 253, 253) ;
+}
+.prod-scroll{
+    height: 40vh !important;
+}
+.searchDiv{
+    display: flex;
+    margin-bottom: 10px;
+}
+.searchDiv input{
+    width: 90%;
+    border-top-right-radius: unset !important;
+    border-bottom-right-radius: unset !important;
+    border-radius: 6px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+.searchDiv button{
+    width: 80px;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border: 1px solid rgb(209, 206, 206);
+    padding: 10px;
+}
+.card-item button:hover{
+    background-color: whitesmoke;
+}
+.bbb{
+    display: flex;
+}
+.item-cover{
+    width: 100%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pro-div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pos-view{
+    width: 80%;
+}
+.pos-cover{
+    display: flex;
+}
+.pos-form{
+    width: 60%;
+    padding-top: 20px;
+}
+.pos-form div{
+    margin-bottom: 7px;
+}
+.pos-form div input{
+    padding: 7px;
+    width: 100%;
+}
+.pos-form div button{
+    padding: 10px;
+    width: 100%;
+}
+.pos-card{
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: auto;
+}
+.top-pos-box{
+    padding: 10px;
+    border-bottom: 1px solid rgb(49, 47, 47);
+    background-color: whitesmoke;
+    color: rgb(49, 47, 47);
+}
+.tb1{
+    height: 50vh !important;
+}
+.scrollView{
+    height: 78vh;
+    overflow: scroll;
+}
+.scrollView::-webkit-scrollbar{
+    display: none;
+}
+.sum-board{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-sum{
+    width: 150px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(49, 47, 47);
+}
+.pos-cec-main{
+    display: flex;
+}
+.cs1{
+    color: white;
+    background-color: rgba(27, 153, 11, 0.467);
+}
+.cs2{
+    color: white;
+    background-color: rgba(153, 32, 11, 0.467);
+}
+.cs3{
+    color: white;
+    background-color: rgba(32, 11, 153, 0.467);
+}
+.cs4{
+    cursor: pointer;
+    border: 1px solid rgb(71, 70, 70);
+    color: rgb(71, 70, 70);
+}
+.cs4:hover{
+    background-color: rgb(71, 70, 70);
+    color: white;
+}
+.flexbod1{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.divpad{
+
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.dfdf{
+    margin-top: 10px;
+    width: 100%;
+    gap: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.flexbod1 form{
+    width: 70%;
+}
+.table-vew{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70vh;
+    overflow: scroll;
+    margin-right: auto;
+}
+.table-vew::-webkit-scrollbar{
+    display: none;
+}
+.table-vew table{
+    width: 100%;
+}
+.receipt div{
+    padding: 10px;
+    border-bottom: 1px dotted rgb(71, 70, 70);
+}
+.table-vew table thead th{
+    text-align: start;
+    padding: 10px;
+}
+.dhead{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nb{
+    border-bottom: unset;
+}
+.ddd1{
+    border-bottom: 1px solid rgb(49, 47, 47);
+    padding: 3px !important;
+}
+.dhead div{
+    border-bottom: unset !important;
+}
+.table-vew table thead{
+    background-color: whitesmoke;
+}
+.recTot{
+    display: flex;
+    justify-content: end;
+}
+.table-vew table tbody td{
+    text-align: start;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(71, 70, 70);
+}
+.table-vew table tbody tr{
+    background-color: rgb(252, 252, 252);
+    cursor: pointer;
+}
+.table-vew table tbody tr:hover{
+    background-color: rgb(236, 233, 233);
+}
+.btnAdd{
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+}
+.tt1{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.form-add{
+    border-radius: 3px;
+    width: 40%;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 2px 4px 5px rgb(212, 209, 209);
+}
+.section-center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-add div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form-add div input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 206, 206);
+}
+.form-add div button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(71, 70, 70);
+    border-radius: 4px;
+}
+.nav{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.nav ul li a{
+    color: rgb(71, 70, 70);
+}
+.manage-view{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black-container{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6787;
+}
+.popup{
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.popup button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+.pos-pos-top{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.p1{
+    width: 60%;
+}
+.p2{
+    width: 40%;
+}
+.form-pos-sell{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: rgb(49, 47, 47);
+    background-color: whitesmoke;
+}
+.form-pos-sell div{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form-pos-sell div input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 2px;
+}
+.top-bar-sec{
+    background-color: whitesmoke;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(49, 47, 47);
+    color: rgb(49, 47, 47);
+}
+.form-pos-sell button{
+    width: 100%;
+    padding: 10px;
+
+}
+.btnCheck{
+    padding: 10px;
+
+}
+.tb1{
+    height: 35vh !important;
+    overflow: scroll;
+}
